@@ -26,6 +26,5 @@ class HomeController extends Controller
     {
         $companies = Company::orderBy('id', 'desc')->paginate(100);
         return view('home', compact('companies'));
-        
     }
 }

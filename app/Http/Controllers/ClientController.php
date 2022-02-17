@@ -43,7 +43,7 @@ class ClientController extends Controller
     public function store(Request $request)
     {
 
-       
+
         $request->validate([
             'name' => 'required|min:3|max:25',
             'email' => 'required|email',

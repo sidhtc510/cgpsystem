@@ -6,15 +6,16 @@
             <div class="col-md-8">
 
                 <div class="dropdown">
-                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Menu
                     </a>
-                  
+
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <li><a class="dropdown-item" href="{{route('company.create')}}">Добавить компанию</a></li>
-                      <li><a class="dropdown-item" href="{{ route('client.create') }}">Добавить клиента</a></li>
+                        <li><a class="dropdown-item" href="{{ route('company.create') }}">Добавить компанию</a></li>
+                        <li><a class="dropdown-item" href="{{ route('client.create') }}">Добавить клиента</a></li>
                     </ul>
-                  </div>
+                </div>
 
 
                 <h2>Список Компаний</h2>
